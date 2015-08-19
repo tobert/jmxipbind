@@ -1,6 +1,7 @@
 # JMXIPBind.jar
 
-Add the ability to bind JMX to a specified IP address.
+Add the ability to bind JMX to a specified IP address. This should work with
+most any JVM service, but I've only tried it with Cassandra.
 
 # LEGAL WARNING
 
@@ -16,7 +17,7 @@ It should be OK on OpenJDK but I'm not a lawyer, so ask yours.
 As always, exposing an unauthenticated port to public networks is a security risk. Enabling
 authentication and/or SSL is highly recommended. You have been warned.
 
-# Usage
+# Usage with Apache Cassandra
 
 Copy JMXIPBind.jar to the cassandra server. Then modify the JMX section of cassandra-env.sh
 to look like the following example. Replace /YOUR/PATH/TO/ with the path to where you
