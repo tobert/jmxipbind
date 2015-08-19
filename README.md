@@ -2,7 +2,7 @@
 
 Add the ability to bind JMX to a specified IP address.
 
-# WARNING
+# LEGAL WARNING
 
 This method of changing JMX behavior might be illegal on the Oracle binary JVM.
 The Oracle docs state that using -Xbootclasspath/p to override classes in rt.jar
