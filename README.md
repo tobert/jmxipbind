@@ -42,7 +42,7 @@ fi
 # Credits
 
 Most of the procedure and code came from a
-(post on the Apache Cassandra mailing listjby Teijo Holzer)[http://mail-archives.apache.org/mod_mbox/cassandra-user/201108.mbox/%3C4E40B802.2060500@wetafx.co.nz%3E].
+[post on the Apache Cassandra mailing listjby Teijo Holzer](http://mail-archives.apache.org/mod_mbox/cassandra-user/201108.mbox/%3C4E40B802.2060500@wetafx.co.nz%3E).
 
 
 # License
